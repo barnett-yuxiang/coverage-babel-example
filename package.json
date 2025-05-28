@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "build:transformed": "node scripts/build-transformed.js"
+    "build:transformed": "node scripts/build-transformed.js",
+    "dump:ast": "node scripts/dump-ast.js"
   },
   "keywords": [],
   "author": "",
