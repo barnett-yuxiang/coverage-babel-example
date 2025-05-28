@@ -6,11 +6,18 @@ Build a frontend project with the following features:
 4. Use Jest to execute tests and generate coverage reports;
 5. View AST structure and instrumented JS code.
 
+## Installation
 
-install
 ```
 npm install --save-dev typescript ts-jest jest babel-jest
 npm install --save-dev @babel/core @babel/preset-env @babel/preset-typescript
 npm install --save-dev babel-plugin-istanbul
 npm install --save-dev @babel/parser @babel/traverse @babel/generator
 ```
+
+## Available Scripts
+
+- `npm test` - Run Jest tests
+- `npm run test:coverage` - Run Jest tests with coverage report
+- `npm run build:transformed` - View instrumented JS code after Babel transformation
+- `npm run dump:ast` - View AST structure of the source code
